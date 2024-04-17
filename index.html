@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Skydash Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+  <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" type="text/css" href="js/select.dataTables.min.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="images/logo.svg" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="icon-menu"></span>
+        </button>
+        <ul class="navbar-nav mr-lg-2">
+          <li class="nav-item nav-search d-none d-lg-block">
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+                  
+        </ul>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="icon-grid menu-icon"></i>
+              <span class="menu-title">School</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+              <i class="icon-bar-graph menu-icon"></i>
+              <span class="menu-title">Sites</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="charts">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="https://www.kcen.kr/tanso/intro.green" target="_blank">탄소 발자국 계산기</a></li>
+                <li class="nav-item"> <a class="nav-link" href="https://www.greenpeace.org/korea/"target="_blank">그린피스</a></li>
+                <li class="nav-item"> <a class="nav-link" href="https://www.me.go.kr/"target="_blank">환경부</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row"> 
+            <div class="col-md-12 grid-margin">
+              <div class="row">
+                <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                  <h3 class="font-weight-bold">경산과학고등학교 </h3>
+                  <h6 class="font-weight-normal mb-0">우리 학교의 탄소 발자국은?</h6>
+                </div>
+                <div class="col-12 col-xl-4">
+                 <div class="justify-content-end d-flex">
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+              <div >
+                <div class="card-people mt-auto">
+                  <img src="images/dashboard/DJI_0022.JPG" alt="people">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin transparent">
+              <div class="row">
+                <div class="col-md-6 mb-4 stretch-card transparent">
+                  <div class="card card-tale">
+                    <div class="card-body">
+                      <p class="mb-4">오늘의 잔반량</p>
+                      <p class="fs-30 mb-2">30kg</p>
+                      <p>4/17</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4 stretch-card transparent">
+                  <div class="card card-dark-blue">
+                    <div class="card-body">
+                      <p class="mb-4">지난달 전기 소비량</p>
+                      <p class="fs-30 mb-2"></p>
+                      <p>(준비중)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+                  <div class="card card-light-blue">
+                    <div class="card-body">
+                      <p class="mb-4">어제 잔반량</p>
+                      <p class="fs-30 mb-2">25kg</p>
+                      <p>4/16</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 stretch-card transparent">
+                  <div class="card card-light-danger">
+                    <div class="card-body">
+                      <p class="mb-4">누적 잔반량</p>
+                      <p class="fs-30 mb-2">45kg</p>
+                      <p>4/16~</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-title">전기 사용량</p>
+                  <p class="font-weight-500">월별 전기 사용량을 확인하세요</p>
+                  <div class="d-flex flex-wrap mb-5">
+                    <div class="mr-5 mt-3">
+                      <p class="text-muted">작년 전기 사용량</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">117.809MWh</h3>
+                    </div>
+                    <div class="mr-5 mt-3">
+                      <p class="text-muted">총 전기 요금</p>
+                      <h3 class="text-primary fs-30 font-weight-medium">170,950,000원</h3>
+                    </div>
+                  </div>
+                  <canvas id="order-chart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                 <div class="d-flex justify-content-between">
+                  <p class="card-title">주간 잔반량</p>
+                 </div>
+                  <p class="font-weight-500">잔반량을 확인하세요</p>
+                  <div id="sales-legend" class="chartjs-legend mt-4 mb-2"></div>
+                  <canvas id="sales-chart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">kimzinu - soysauceceab <a href="https://github.com/soysaucecrab/2024_society" target="_blank">2024 society - project</a></span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="https://school.gyo6.net/gsshs/main.do?sysId=gsshs" target="_blank">GSSH</a></span>
+          </div>
+        </footer> 
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>   
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+  <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <script src="js/dataTables.select.min.js"></script>
+
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <script src="js/Chart.roundedBarCharts.js"></script>
+  <!-- End custom js for this page-->
+</body>
+
+</html>
+
